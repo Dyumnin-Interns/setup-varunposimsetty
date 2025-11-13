@@ -1,7 +1,7 @@
 SIM ?= icarus
 TOPLEVEL_LANG ?= verilog
 VERILOG_SOURCES += $(PWD)/../hdl/dut.v
-VERILOG_SOURCES += $(PWD)/../hdl/test_dut.v
+VERILOG_SOURCES += $(PWD)/../wrapper/test_dut.v
 TOPLEVEL = test_dut
 MODULE = dut_test
 xor:
